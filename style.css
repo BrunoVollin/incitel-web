@@ -1,0 +1,43 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3b3b3b;
+    height: 80vh;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#titulo {
+    color: white;
+    font-size: 22px;
+}
+
+#imc, #clasificacao {
+    font-weight: 600;
+}
+
+.input-label {
+    color: gray;
+}
+
+#card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+
+.button {
+    background-color: rgb(255, 145, 76);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+}
